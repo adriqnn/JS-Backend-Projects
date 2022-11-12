@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    {{#if errors}}
+        <div class="errorContainer">
+            {{#each errors}}
+                <p>{{this}}</p>
+            {{/each}}
+        </div>
+    {{/if}}
+    <div class="navigation">
+        <nav>
+            <img src="/static/images/logo.jpg">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/catalog">Blogs</a></li>
+                {{#if email}}
+                    <li><a href="/profile">Profile</a></li>
+                    <li><a href="/model/create">Create Blog</a></li>
+                    <li><a href="/auth/logout">Logout</a></li>
+                {{else}}
+                    <li><a href="/auth/login">Login</a></li>
+                    <li><a href="/auth/register">Register</a></li>
+                {{/if}}
+            </ul>
+        </nav>
+    </div>
+    {{{body}}}
+    <footer>Back-End 2022</footer>
+</body>
+</html>
