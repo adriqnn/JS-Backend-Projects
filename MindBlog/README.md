@@ -1,4 +1,4 @@
-# MindBlog JS Back-End Server-Side with
+# MindBlog JS Back-End Server-Side with:
 >"bcrypt",\
 >"cookie-parser",\
 >"express",\
