@@ -1,0 +1,28 @@
+<main>
+    <div class="container">
+        <section class="details">
+            <h1>{{model.title}}</h1>
+            <div>
+                <img src="https://media.timeout.com/images/103727744/380/285/image.jpg" />
+            </div>
+        </section>
+        <section class="details">
+            <h3>Theater Description</h3>
+            <p>{{model.description}}</p>
+            {{#if username}}
+                <div class="buttons">
+                    {{#if model.isOwner}}
+                        <a class="btn delete" href="/model/{{model._id}}/delete">Delete</a>
+                        <a class="btn edit" href="/model/{{model._id}}/edit">Edit</a>
+                    {{else}}
+                        {{#if model.action}}
+                            <span class="liked">You have already liked this play!</span>
+                        {{else}}
+                            <a class="btn like" href="/model/{{model._id}}/action">Like</a>
+                        {{/if}}
+                    {{/if}}
+                </div>
+            {{/if}}
+        </section>
+    </div>
+</main>
