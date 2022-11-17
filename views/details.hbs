@@ -1,0 +1,53 @@
+<main>
+    <section id="details-page">
+        <div class="main_card">
+            <div class="card_left">
+                <div class="card_datails">
+                    <h1>Title: {{model.title}}</h1>
+                    <h3>Created by an author: {{model.owner.firstName}} {{model.owner.lastName}}</h3>
+                    <div class="card_animal">
+                        <p class="card-keyword">Keyword: {{model.keyword}}</p>
+                        <p class="card-location">Location: {{model.location}}</p>
+                        <p class="card-date">Date: {{model.dateOfCreation}}</p>
+                    </div>
+                    <p class="disc">Description: {{model.description}}</p>
+                    {{#if email}}
+                        <div class="social-btn">
+                            {{#if model.isOwner}}
+                                <a href="/model/{{model._id}}/edit" class="edit-btn">Edit</a>
+                                <a href="/model/{{model._id}}/delete" class="del-btn">Delete</a>
+                            {{else}}
+                                {{#if model.action}}
+                                    <p class="thanks-for-vote">Thanks For Voting</p>
+                                {{else}}
+                                    <a href="/model/{{model._id}}/upvote" class="vote-up">UpVote +1</a>
+                                    <a href="/model/{{model._id}}/downvote" class="vote-down">DownVote -1</a>
+                                {{/if}}
+                            {{/if}}
+                        </div>
+                    {{/if}}
+                </div>
+            </div>
+            <div class="card_right">
+                <img src="/static/img/animal.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+    <section id="votes">
+        <div class="vote-info">
+            <div class="card_left">
+                <div class="card_datails">
+                    <h1>Votes</h1>
+                    <div class="card_vote">
+                        <p class="PV">Total rating of votes: {{#if model.noOne}}0{{else}}{{model.raitingOfPost}}{{/if}}</p>
+                    </div>
+                        {{#if model.users}}
+                            <p class="disc">People who voted for the post - {{model.users}}</p>
+                        {{else}}
+                            <p class="disc">People who voted for the post - No one has voted yet.</p>
+                        {{/if}}
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
