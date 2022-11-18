@@ -1,0 +1,42 @@
+<main>
+    <section id="details-page">
+        <article class="details-gage-title">
+            <h1>Details Page</h1>
+        </article>
+        <article class="details-page-card">
+            <article class="details-page-card-image"><img src="/static/img/man.png" alt="details-image"></article>
+            <article class="details-page-card-content">
+                <p>Author: {{model.ownerOfJobOffer}}</p>
+                <h2>Headline: {{model.headline}}</h2>
+                <h3>Company name: {{model.companyName}} </h3>
+                <h4>Company description: {{model.companyDescription}}</h4>
+                <h5>Location: {{model.location}}</h5>
+                {{#if email}}
+                <article class="details-page-card-buttons">
+                    {{#if model.isOwner}}
+                        <a href="/model/{{model._id}}/edit" class="btn-edit">Edit</a>
+                        <a href="/model/{{model._id}}/delete" class="btn-delete">Delete</a>
+                    {{else}}
+                        {{#if model.applied}}
+                            <p class="already-applied">You have already applied!</p>
+                        {{else}}
+                            <a href="/model/{{model._id}}/action" class="btn-apply">Apply now!</a>
+                            <p class="applied-people">Hurry up, {{model.list.length}} people have already applied.</p>
+                        {{/if}}
+                    {{/if}}
+                </article>
+                {{/if}}
+            </article>
+        </article>
+    </section>
+    {{#if model.isOwner}}
+        <section id="info-about-candidates">
+            <h2>Candidates for this ad:</h2>
+            {{#if model.list}}
+                {{#each model.list}}
+                    {{> job-details}}
+                {{/each}}
+            {{/if}}
+        </section>
+    {{/if}}
+</main>

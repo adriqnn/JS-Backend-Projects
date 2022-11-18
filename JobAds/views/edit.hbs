@@ -1,0 +1,23 @@
+<main>
+    <section id="edit-page">
+        <article class="edit-page-container">
+            <form action="/model/{{model._id}}/edit" method="post" class="edit-page-form">
+                <h2>Edit an ad</h2>
+                <label for="headline">Headline:</label>
+                <input type="text" id="headline" name="headline" value="{{model.headline}}">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" value="{{model.location}}">
+                <label for="company-name">Company name:</label>
+                <input type="text" id="company-name" name="companyName" value="{{model.companyName}}">
+                <label for="company-description">Company description:</label>
+                <input type="text" id="company-description" name="companyDescription" value="{{model.companyDescription}}">
+                <article class="edit-page-button">
+                    <button class="btn-edit-ads">Edit</button>
+                </article>
+            </form>
+            <article class="edit-page-image">
+                <img src="/static/img/job.png" alt="image">
+            </article>
+        </article>
+    </section>
+</main>

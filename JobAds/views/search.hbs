@@ -1,0 +1,21 @@
+<main>
+    <form class="search" action="/search" method="get">
+        <input type="search" name="search" {{#if catalog.s}}value="{{catalog.s}}"{{/if}} placeholder="Search email...">
+        <button type="submit" class="btn-search">
+            <img src="/static/img/search-icon.png" alt="search-icon">
+            Search
+        </button>
+    </form>
+    <section id="search-page">
+        <h2>Search result:</h2>
+        {{#if catalog.offers}}
+            {{#each catalog.offers}}
+                {{> job-search}}
+            {{/each}}
+        {{else}}
+            <article class="search-page-no-result">
+                <p class="search-page-no-result-message">No match found.</p>
+            </article>
+        {{/if}}
+    </section>
+</main>
