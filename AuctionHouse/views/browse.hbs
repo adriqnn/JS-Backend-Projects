@@ -1,0 +1,19 @@
+<main>
+    <section id="catalog-section" class="spaced">
+        <h1 class="item">Auctions</h1>
+        {{#if catalog}}
+            <ul class="catalog cards">
+                {{#each catalog}}
+                    {{> auction-browse}}
+                {{/each}}               
+            </ul>
+        {{else}}
+            <div class="item pad-large align-center">
+                <p>Nothing has been listed yet. Be the first!</p>
+                <div>
+                    <a class="action" href="/model/create">Publish Auction</a>
+                </div>
+            </div>               
+        {{/if}}
+    </section>
+</main>

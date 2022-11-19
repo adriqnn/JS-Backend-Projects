@@ -1,0 +1,28 @@
+<main>
+    {{#if errors}}
+        <div class="error-box">
+            {{#each errors}}
+                <p>{{this}}</p>
+            {{/each}}
+        </div>
+    {{/if}}
+    <section id="login-section" class="narrow">
+        <h1 class="item">Login</h1>
+        <div class="item padded align-center">
+            <form class="aligned" method="post" action="/auth/login">
+                <label>
+                    <span>Email</span>
+                    <input type="text" name="email" placeholder="Email.." value="{{body.email}}">
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" name="password" placeholder="Password..">
+                </label>
+
+                <div class="align-center">
+                    <input class="action" type="submit" value="Sign In">
+                </div>
+            </form>
+        </div>
+    </section>
+</main>

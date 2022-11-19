@@ -1,0 +1,22 @@
+<main>
+    {{#if errors}}
+        <div class="error-box">
+            {{#each errors}}
+                <p>{{this}}</p>
+            {{/each}}
+        </div>
+    {{/if}}
+    <section id="catalog-section" class="spaced">
+        <h1 class="item">Closed Auctions</h1>
+        {{#if catalog}}
+        <ul class="catalog cards">
+            {{#each catalog}}
+                {{> auction-closed}}
+            {{/each}}
+        {{else}}
+            <div class="item pad-large align-center">
+                <p>You haven't closed any auctions yet.</p>
+            </div>
+        {{/if}}
+    </section>
+</main>
