@@ -1,4 +1,4 @@
-# WildlifePhotography JS Back-End Server-Side with:
+# AuctionHouse JS Back-End Server-Side with:
 >"bcrypt",\
 >"cookie-parser",\
 >"express",\
