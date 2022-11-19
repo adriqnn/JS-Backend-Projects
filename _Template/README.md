@@ -1,4 +1,4 @@
-# JS Back-End exam template
+# JS Back-End exam template with:
   >"bcrypt",\
   >"cookie-parser",\
   >"express",\
