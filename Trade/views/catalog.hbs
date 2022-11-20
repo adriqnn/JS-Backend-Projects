@@ -1,0 +1,16 @@
+<main>
+    <section class="crypto-market">
+        <h1><span>Crypto</span> Trade</h1>
+        <div class="offer-list">
+            {{#if catalog}}
+                {{#each catalog}}
+                    {{> catalog-coin}}
+                {{/each}}
+            {{else}}
+                <div class="no-offer">
+                <p>There are no crypto offers found!</p>
+                </div>
+            {{/if}}
+        </div>
+    </section>
+</main>

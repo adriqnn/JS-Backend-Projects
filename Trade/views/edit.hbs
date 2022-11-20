@@ -1,0 +1,33 @@
+<main>
+    {{#if errors}}
+        <div class="errorContainer">
+            {{#each errors}}
+                <p>{{this}}</p>
+            {{/each}}
+        </div>
+    {{/if}}
+    <section id="edit-container">
+        <div class="edit-container-info">
+            <h1>Edit Announcement</h1>
+            <form action="/model/{{model._id}}/edit" method="post">
+                <label>Name:</label>
+                <input type="text" id="name" name="name" value="{{model.name}}">
+                <label>Image:</label>
+                <input type="text" id="image" name="image" value="{{model.image}}">
+                <label>Price:</label>
+                <input type="number" id="price" name="price" value="{{model.price}}">
+                <label>Description:</label>
+                <textarea name="cryptoDescription"
+                    id="description">{{model.cryptoDescription}}</textarea>
+                <label>Payment method:</label>
+                <select id="payment" name="paymentMethod">
+                    <option value="crypto-wallet" {{#if check.isWallet}} selected{{/if}}>Crypto Wallet</option>
+                    <option value="credit-card" {{#if check.isCredit}} selected{{/if}}>Credit Card</option>
+                    <option value="debit-card" {{#if check.isDebit}} selected{{/if}}>Debit Card</option>
+                    <option value="paypal" {{#if check.isPaypal}} selected{{/if}}>PayPal</option>
+                </select>
+                <input type="submit" id="btn" value="EDIT"></input>
+            </form>
+        </div>
+    </section>
+</main>
