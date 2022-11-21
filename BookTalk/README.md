@@ -1,8 +1,8 @@
 
-"bcrypt",
-"cookie-parser",
-"express",
-"express-handlebars",
-"jsonwebtoken",
-"mongoose",
-"validator"
+>"bcrypt",\
+>"cookie-parser",\
+>"express",\
+>"express-handlebars",\
+>"jsonwebtoken",\
+>"mongoose",\
+>"validator"
