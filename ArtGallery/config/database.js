@@ -7,9 +7,9 @@ module.exports = async (app) => {
             useUnifiedTopology: true,
             useNewUrlParser: true
         });
-        console.log('Database connected');
+        console.log('Database connected...');
     }catch(err){
-        console.error("Error initiazlizing database");
+        console.error("Error initiazlizing database!");
         console.error(err.message);
         process.exit(1);
     };
