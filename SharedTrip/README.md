@@ -5,4 +5,4 @@
 >"express-handlebars",\
 >"jsonwebtoken",\
 >"mongoose",\
-"validator"
+>"validator"
