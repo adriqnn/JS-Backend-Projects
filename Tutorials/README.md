@@ -1,7 +1,8 @@
 Tutorials JS Back-End Server-Side with:
-
-    "bcrypt",
-    "cookie-parser",
-    "express",
-    "express-handlebars",
-    "jsonwebtoken
+"bcrypt",
+"cookie-parser",
+"express",
+"express-handlebars",
+"jsonwebtoken",
+"mongoose",
+"validator"
