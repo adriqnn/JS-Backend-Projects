@@ -1,7 +1,7 @@
-ArtGallery JS Back-End Server-Side with:
+Tutorials JS Back-End Server-Side with:
 
     "bcrypt",
     "cookie-parser",
     "express",
     "express-handlebars",
-    "jsonwebto
+    "jsonwebtoken
