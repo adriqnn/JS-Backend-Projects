@@ -9,10 +9,7 @@
 >"validator"
 
 <p><img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/1.jpg" width="49%" height="49%"> <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/2.jpg" width="49%" height="49%"></p>
-<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/3.jpg" width="50%" height="50%">
-<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/4.jpg" width="50%" height="50%">
-<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/5.jpg" width="50%" height="50%">
-<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/6.jpg" width="50%" height="50%">
-<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/7.jpg" width="50%" height="50%">
-<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/8.jpg" width="50%" height="50%">
-<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/9.jpg" width="50%" height="50%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/3.jpg" width="49%" height="49%"> <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/4jpg" width="49%" height="49%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/5jpg" width="49%" height="49%"> <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/6jpg" width="49%" height="49%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/7jpg" width="49%" height="49%"> <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/8jpg" width="49%" height="49%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/9jpg" width="49%" height="49%">
