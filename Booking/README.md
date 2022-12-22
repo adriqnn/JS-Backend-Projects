@@ -8,7 +8,7 @@
 >"mongoose",\
 >"validator"
 
-<p><img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/1.jpg" width="50%" height="50%"> <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/2.jpg" width="50%" height="50%"></p>
+<p><img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/1.jpg" width="49%" height="49%"> <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/2.jpg" width="49%" height="49%"></p>
 <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/3.jpg" width="50%" height="50%">
 <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/4.jpg" width="50%" height="50%">
 <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/5.jpg" width="50%" height="50%">
