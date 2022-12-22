@@ -8,7 +8,7 @@
 >"mongoose",\
 >"validator"
 
-
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/1.jpg" width="50%" height="50%">
 ![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/1.jpg)
 ![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/2.jpg)
 ![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/3.jpg)
