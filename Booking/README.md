@@ -9,12 +9,11 @@
 >"validator"
 
 <img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/1.jpg" width="50%" height="50%">
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/1.jpg)
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/2.jpg)
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/3.jpg)
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/4.jpg)
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/5.jpg)
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/6.jpg)
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/7.jpg)
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/8.jpg)
-![alt text](https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/9.jpg)
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/2.jpg" width="50%" height="50%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/3.jpg" width="50%" height="50%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/4.jpg" width="50%" height="50%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/5.jpg" width="50%" height="50%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/6.jpg" width="50%" height="50%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/7.jpg" width="50%" height="50%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/8.jpg" width="50%" height="50%">
+<img src="https://github.com/adriqnn/JS-Backend-Projects/blob/main/Booking/x-booking-pictures/9.jpg" width="50%" height="50%">
